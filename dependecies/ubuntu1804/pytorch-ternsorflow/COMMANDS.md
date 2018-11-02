@@ -18,7 +18,7 @@ sudo apt-get -y upgrade
 ```
 sudo apt-get install -y build-essential cmake g++ gfortran
 sudo apt-get install -y git pkg-config python-dev
-sudo apt install build-essential libssl-dev libffi-dev python3-dev #for python3
+sudo apt-get install -y build-essential libssl-dev libffi-dev python3-dev #for python3
 sudo apt-get install -y software-properties-common wget
 sudo apt-get -y autoremove
 sudo rm -rf /var/lib/apt/lists/*
