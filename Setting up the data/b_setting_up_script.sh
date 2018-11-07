@@ -22,6 +22,18 @@ rm preprocess_cat_dataset.py
 ## Removing cat_dataset
 rm -r cat_dataset
 
+
+
+## Move to an images path
+cd $HOME/datasets/cats_bigger_than_64x64/ 
+mkdir images
+mv *.jpg images/
+
+cd $HOME/datasets/cats_bigger_than_128x128
+mkdir images
+mv *.jpg images/
+
+
 ## Move to your favorite place
 #mv cats_bigger_than_64x64 /home/alexia/Datasets/Meow_64x64
 #mv cats_bigger_than_128x128 /home/alexia/Datasets/Meow_128x128
